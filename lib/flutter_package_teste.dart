@@ -7,10 +7,15 @@ class FirstWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ButtonBar(
-          children: <Widget>[
-          Text('Sou um teste. beep boop')
-      ],
-    ));
+      body: Column(
+        children: <Widget>[
+          Center(
+            child: Text(
+              'Eu sou um teeeste. beeeep boop.'
+            ),
+          )
+        ],
+      )
+    );
   }
 }
